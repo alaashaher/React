@@ -60,4 +60,4 @@ const AnalogDisplay = function (props) {
   };
 
 
-export default analogDisplay;
+export default AnalogDisplay;
