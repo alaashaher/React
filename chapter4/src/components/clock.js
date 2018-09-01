@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
-import BianaatWelcome from './components/BianaatWelcome'
-import AnalogDisplay from './components/analogDisplay'
-import DigitalDisplay from './components/digitalDispaly'
+import AnalogDisplay from './analogDisplay'
+import DigitalDisplay from './digitalDispaly'
 const title = 'My Minimal React Webpack Babel Setup';
 
 class Clock extends Component {
