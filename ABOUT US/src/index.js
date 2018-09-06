@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BianaatWelcome from './components/BianaatWelcome'
 import mainPage from './components/main_page'
 import powerFul from './components/powerful'
 import powerFulDsc from './components/powerfulDes'
@@ -14,7 +13,6 @@ ReactDOM.render(
 )
 ReactDOM.render (
   React.createElement(powerFul,null),
-
   document.getElementById('contanir')
 )
 
