@@ -1,27 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import mainPage from './components/main_page'
-import powerFul from './components/powerful'
-import powerFulDsc from './components/powerfulDes'
+import AboutUs from './pages/aboutUs'
+
 const title = 'My Minimal React Webpack Babel Setup';
 
-
-
-ReactDOM.render(
-  React.createElement(mainPage, null),
+ReactDOM.render (
+  <AboutUs/>,
   document.getElementById('app')
 )
-ReactDOM.render (
-  React.createElement(powerFul,null),
-  document.getElementById('contanir')
-)
-
-ReactDOM.render (
-  React.createElement(powerFulDsc,null),
-  document.getElementById('contanir_dsc')
-)
-
-
-
 
 module.hot.accept();

@@ -10,5 +10,4 @@ ReactDOM.render(React.createElement(
   React.createElement(Content, null)
 ), document.getElementById('content'));
 
-
 module.hot.accept();
