@@ -7,7 +7,9 @@ import Radio from './components/radio'
 const title = 'My Minimal React Webpack Babel Setup';
 
 ReactDOM.render (
-  <SaveButton/>,
+  // <Radio order="1"/>,
+  // <SaveButton/>,
+  <Event/>,
   document.getElementById('app')
 )
 
