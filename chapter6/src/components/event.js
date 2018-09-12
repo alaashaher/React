@@ -12,9 +12,9 @@ class Event extends Component {
     render() {
         return (
             <div>
-                <ClickCounterButton handler={this.handleClick} />
+                <ClickCounterButton handler={this.handleClick} counter= {this.state.counter}/>
                 <br />
-                <Counter value={this.state.counter} />
+                {/* <Counter value={this.state.counter} /> */}
             </div>
         )
     }
