@@ -9,6 +9,7 @@ const title = 'My Minimal React Webpack Babel Setup';
 ReactDOM.render (
   // <Radio order="1"/>,
   // <SaveButton/>,
+  // <Content/>,
   <Event/>,
   document.getElementById('app')
 )

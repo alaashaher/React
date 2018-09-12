@@ -3,18 +3,19 @@ import ClickCounterButton from './clickcounterbutton'
 class Event extends Component {
     constructor(props) {
         super(props)
-        this.handleClick = this.handleClick.bind(this)
         this.state = { counter: 0 }
+        this.handleClick = this.handleClick.bind(this);
     }
     handleClick(event) {
         this.setState({ counter: ++this.state.counter })
+        alert("hello");
     }
     render() {
         return (
             <div>
-                <ClickCounterButton handler={this.handleClick} counter= {this.state.counter}/>
+                <ClickCounterButton handler={this.handleClick} counter={this.state.counter} />
                 <br />
-                {/* <Counter value={this.state.counter} /> */}
+              
             </div>
         )
     }
