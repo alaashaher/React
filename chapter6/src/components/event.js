@@ -15,7 +15,6 @@ class Event extends Component {
             <div>
                 <ClickCounterButton handler={this.handleClick} counter={this.state.counter} />
                 <br />
-              
             </div>
         )
     }
