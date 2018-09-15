@@ -6,7 +6,7 @@ import Email from './components/email';
 import Entered from './components/entered';
 import Form from './components/form';
 ReactDOM.render(
-    <Form />,
+    <Email />,
     document.getElementById('app')
 );
 

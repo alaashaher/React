@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import ReactDOM from 'react-dom';
 class Email extends Component {
     constructor(props) {    
       super(props)
