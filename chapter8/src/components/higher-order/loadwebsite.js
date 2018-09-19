@@ -22,7 +22,7 @@ const LoadWebsite = (Component) => {
     }
     _LoadWebsite.displayName = 'EhnancedComponent'
   
-    return _LoadWebsite
+    return _LoadWebsite;
   }
   
   export default LoadWebsite;
