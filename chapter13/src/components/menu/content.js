@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  NavLink
 } from 'react-router-dom';
 class Content extends Component {
   render() {
@@ -12,25 +12,25 @@ class Content extends Component {
         <h1>Node.University</h1>
         <div className="navbar navbar-default">
           <ul className="nav nav-pills navbar-nav ">
-            <li className={(this.context.router.isActive('/about'))? 'active': ''}>
-              <Link to="/about" activeClassName="active">
+            <li >
+              <NavLink to="/about" activeClassName="active">
                 About
-              </Link>
-            </li>
-            <li className={(this.context.router.isActive('/posts'))? 'active': ''}>
-              <Link to="/posts" activeClassName="active">
-                Blog
-              </Link>
-            </li>
-            <li className={(this.context.router.isActive('/contact'))? 'active': ''}>
-              <Link to="/contact" activeClassName="active">
-                Contact Us
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/login" activeClassName="active">
+              <NavLink to="/posts" activeClassName="active">
+                Blog
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" activeClassName="active">
+                Contact Us
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/login" activeClassName="active">
                 Login
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -39,7 +39,5 @@ class Content extends Component {
     )
   }
 }
-// Content.contextTypes = {
-//   router: React.PropTypes.object.isRequired
-// }
+
 export default Content;
