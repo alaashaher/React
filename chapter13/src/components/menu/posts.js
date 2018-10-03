@@ -1,12 +1,21 @@
-const {Link} = require('react-router')
-const React = require('react')
+const { Link } = require('react-router')
 
-module.exports = function Posts(props) {  
-  return <div>Posts
+const React = require('react');
+
+import {
+  NavLink
+} from 'react-router-dom';
+
+const Posts = (props) => (<div>Posts
     <ol>
-    {props.route.posts.map((post, index)=>
-      <li key={post.slug}><Link to={`/posts/${post.slug}`} >{post.title}</Link></li>
+
+    {props.posts.map((post, index) =>
+
+      <li key={post.slug}><NavLink to={`/posts/${post.slug}`} >{post.title}</NavLink></li>
     )}
-    </ol>
-  </div>
-}
+
+  </ol>
+</div>
+)
+
+export default Posts;
