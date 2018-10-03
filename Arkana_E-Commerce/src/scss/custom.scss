@@ -1,0 +1,48 @@
+@import './carousel.css';
+
+// Your customize CSS
+
+.logo , .share {
+    margin-left: 20%;
+}
+
+.header {
+    height: 600px;
+    width: 100%;
+    background-color: #dddddd;
+}
+
+.nav {
+    background-color: #dddddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header ul li a{
+    color:  rgba(22, 25, 24, 255);
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-weight: 100;
+}
+
+.sec-nav {
+    border-top: 1px solid #cfcfcf;
+    margin-top: 32px;
+}
+
+.carousel-caption h5 {
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 56pt;
+    color: rgba(22, 25, 24, 255);
+    text-align: left; 
+}
+
+.carousel-caption p {
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 13pt;
+    color: rgba(127, 127, 127, 255);
+    text-align: left;
+    width: 356px;
+}
+
+.discover-btn {
+    float: left;
+}
