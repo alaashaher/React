@@ -1,7 +1,7 @@
 @import './carousel.css';
 
 // Your customize CSS
-
+/* header start */
 .logo , .share {
     margin-left: 20%;
 }
@@ -26,6 +26,7 @@
 .sec-nav {
     border-top: 1px solid #cfcfcf;
     margin-top: 32px;
+    margin-left: 30%;
 }
 
 .carousel-caption h5 {
@@ -46,3 +47,44 @@
 .discover-btn {
     float: left;
 }
+@media (min-width:713px) and (max-width:991px){
+    .button-nav {
+        margin-top: 50px;
+        float: left;
+    }
+}
+/* header end */
+
+/* Top Trending start */
+.section {
+    margin-top: 50px;
+}
+
+.section-header h3 {
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 42pt;
+    color: rgba(22, 25, 24, 255);
+}
+
+.section-header p {
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 13pt;
+    color: rgba(146, 146, 146, 255);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Top Trending end */
